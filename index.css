@@ -1,0 +1,104 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #444;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+header, footer {
+	background-color: black;
+	color: #0b0;
+	font-family: 'Press Start 2P', sans-serif;
+	line-height: 2.3em;
+}
+
+header h1 {
+	color: #1cc41c;
+}
+
+#header-title {
+	color: #1de61d;
+}
+
+header, #reflection, footer, .column-section {
+	padding: 10px;
+	margin: 10px;
+}
+
+.column-section {
+	width: 280px;
+	float: left;
+	background-color: #272822;
+	height: 400px;
+	overflow: scroll;
+}
+
+.column-section h2 {
+	color: white;
+	font-size: 2.5em;
+}
+
+#what-is-pp p {
+	color: #B92659;
+}
+
+#why-do-pp p {
+	color: #6AC62E;
+}
+
+#how-to-pp p {
+	color: #66D9EF;
+}
+
+#reflection {
+	background-color: #121212;
+	clear: both;
+	color: #888;
+}
+
+footer a {
+ color: #060;
+}
+
+footer a:hover {
+	color: #090;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: plum; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: palegreen; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: aqua; 
+}
+
+@media (max-width: 960px) {
+	body {
+		width: 100%;
+	}
+
+	header h1 {
+		font-size: 1.2em;
+		line-height: 1.4em;
+	}
+
+	.column-section {
+		float: none;
+		width: inherit;
+	}
+}
